@@ -1,0 +1,9 @@
+def fun(n):
+    if(n==0):
+        return 0
+    fun(n-1)
+    if(n%2==0):
+        print(n)
+
+
+fun(100)
